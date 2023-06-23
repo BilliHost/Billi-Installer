@@ -1,6 +1,6 @@
 {
-    "name": "billidev/billiinstaller",
-    "description": "Simple laravel application installer with codecanony purchase verification",
+    "name": "billidev/billi-installer",
+    "description": "Simple Laravel web installer with codecanyon product validation",
     "license": "MIT",
     "minimum-stability": "dev",
     "type": "library",
@@ -15,12 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Billidev\\Billiinstaller\\": "src/"
+            "SdTech\\ProjectInstaller\\": "src/"
         },
         "files": [
             "src/Helpers/functions.php"
         ]
     },
+
     "config": {
         "sort-packages": true
     },
@@ -31,5 +32,4 @@
             ]
         }
     }
-
 }
