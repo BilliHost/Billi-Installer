@@ -2,7 +2,7 @@
     "name": "billidev/billiinstaller",
     "description": "Simple laravel application installer with codecanony purchase verification",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "type": "library",
     "authors": [
         {
